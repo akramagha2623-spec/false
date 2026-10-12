@@ -5,7 +5,7 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Quest Diagnostics - Inspection Report</title>
 	<style type="text/css">:root{
-   --green:#2b549a;
+    --green:#0000cd;
 }
 
 
@@ -15,38 +15,31 @@
     box-sizing:border-box;
 }
 
-body{
-
-    min-height:100vh;
-    background:#f3f5f3;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:20px;
-    font-family:Arial, sans-serif;
-
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;           /* لجعل الارتفاع يملأ كامل طول الشاشة */
+  display: flex;               /* تفعيل نظام Flexbox */
+  justify-content: center;     /* توسيط أفقي في المنتصف */
+  align-items: center;         /* توسيط رأسي في المنتصف تماماً */
+  box-sizing: border-box;
 }
 
-
-.card{
-
-    width:100%;
-    max-width:450px;
-    background:#fff;
-    padding:35px 25px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 15px 40px rgba(0,0,0,.15);
-
+.card {
+  width: 100%;
+  max-width: 450px;            /* أقصى عرض للبطاقة */
+  margin: auto;                /* لضمان التوسيط التام */
+  text-align: center;          /* توسيط النصوص بداخلها */
 }
 
-
-.logo{
-
-    width:140px;
-    max-width:70%;
-    margin-bottom:20px;
-
+.logo {
+    display: block;
+    width: 140px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
 }
 
 
@@ -121,7 +114,7 @@ h1{
 .info{
 
     margin-top:25px;
-    color:#777;
+    color:#555;
     font-size:14px;
 
 }
@@ -175,7 +168,7 @@ h1{
 	</style>
 </head>
 <body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1313.0" data-new-gr-c-s-loaded="14.1313.0">
-<div class="card"><img class="logo" src="./bhggjhش - Inspection Report_files/id3fLapML8_1791810318757" style="height: 135px; width: 300px;">
+<div class="card"><img class="logo" src="https://res.cloudinary.com/gbc1rgji/image/upload/id3fLapML8_1791810318757.png" referrerpolicy="no-referrer" style="height: 135px; width: 300px; object-fit: contain;">
 <div class="check">✓</div>
 
 <h1>Your Lab Results Are Ready</h1>
@@ -191,7 +184,7 @@ Thank you for choosing Labcorp.</div>
 <div class="info">
 <div id="date">📅 Date: 10/13/2026</div>
 
-<div id="time">🕒 Time: 5:03:35 PM</div>
+<div id="time">🕒 Time: 10:20:11 PM</div>
 </div>
 
 <div class="brand"><span style="font-size:14px;">© 2026 Labcorp Incorporated. All rights reserved.</span></div>
